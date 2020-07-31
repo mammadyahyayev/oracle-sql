@@ -1,6 +1,5 @@
 --GROUP FUNCTIONS SUM , MAX , MIN , AVG , COUNT , GROUP BY , HAVING
 
-
 --SUM
 SELECT
     SUM(salary)
