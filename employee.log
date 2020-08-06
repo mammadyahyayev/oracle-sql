@@ -1,0 +1,50 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Thu Aug 6 12:31:56 2020
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   D:\oracle-sql-practice\employee.ctl
+Data File:      D:\oracle-sql-practice\emp.csv
+  Bad File:     D:\oracle-sql-practice\emp.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EMPLOYEES_LOAD, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID                                  FIRST     *   ,       CHARACTER            
+NAME                                 NEXT     *   ,       CHARACTER            
+SURNAME                              NEXT     *   ,       CHARACTER            
+SALARY                               NEXT     *   ,       CHARACTER            
+
+
+Table EMPLOYEES_LOAD:
+  20 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  66048 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            20
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Thu Aug 06 12:31:56 2020
+Run ended on Thu Aug 06 12:32:02 2020
+
+Elapsed time was:     00:00:06.45
+CPU time was:         00:00:00.03
