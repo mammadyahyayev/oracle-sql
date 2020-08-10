@@ -325,7 +325,7 @@ SALARY
 
 
 --then create a table called EMPLOYEES_LOAD
---NOW LET'S CREATE employee.ctl (control file) and add this statement into control file 
+--NOW LET'S CREATE employee.ctl (control file) and add above statement into control file 
 */
 
 --create a table

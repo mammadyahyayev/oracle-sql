@@ -1,0 +1,23 @@
+
+
+ LOG file opened at 08/07/20 22:00:04
+
+Field Definitions for table EMPLOYEE_LOAD_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    ID                              CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    NAME                            CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    SURNAME                         CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    SALARY                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
